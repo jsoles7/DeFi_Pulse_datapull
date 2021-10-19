@@ -67,3 +67,7 @@ if __name__ == "__main__":
                     "ETH": data['ETH'],
                     "DAI": data['DAI'],
                 })
+
+    #close file
+    file.close()
+    
